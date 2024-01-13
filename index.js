@@ -36,7 +36,7 @@ app.use(session({
 const port=process.env.PORT || 3000;
 app.use(express.json());
 app.get("/api/v1",(req,res)=>{
-    res.send("<h2>Hii There</h2>");
+    res.send("<h2>Hii There!!!</h2>");
     console.log("hii its ran")
 })
 app.use("/api/v1/posts",postRouter)
