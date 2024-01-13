@@ -1,5 +1,5 @@
 FROM node:15
-WORKDIR /app/node-docker
+WORKDIR /app
 COPY package.json .
 
 ARG NODE_ENV
